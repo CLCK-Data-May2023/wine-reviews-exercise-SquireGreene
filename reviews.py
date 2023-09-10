@@ -8,5 +8,5 @@ dfupdated = df.rename(columns = {'country': 'count'})
 dfupdated = dfupdated.sort_values('count', ascending=False) 
 
 #print(dfupdated)
-df.to_csv('data/reviews-per-country.csv')
+dfupdated.to_csv('data/reviews-per-country.csv')
 
